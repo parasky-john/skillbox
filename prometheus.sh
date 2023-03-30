@@ -34,18 +34,13 @@ distr "prometheus-alertmanager"
 sudo dpkg -i $dir$deb
 
 #Install the GO environment
-if test -f $go_distr
+if test -d "/usr/local/go"
 	then
-		if test -d "/usr/local/go"
-			then
-			echo "GO is already installed"
-			else
-			tar -C /usr/local -xzf $go_distr
-			sudo echo "PATH=$PATH:$HOME/bin:/usr/local/go/bin" >> /etc/profile
-		fi;
+		echo "GO is already installed"
 	else
-	echo "No file " $go_distr 
-	exit 1
+		cd $dir
+		wget https://golang.org/dl/go1.15.2.linux-amd64.tar.gz
+		tar -C /usr/local -xzf $go_distr
 fi;
 
 #Install OpenVPN_EXPORTER
