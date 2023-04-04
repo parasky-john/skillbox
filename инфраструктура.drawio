@@ -1,26 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T05:28:39.308Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.0.2246 Yowser/2.5 Safari/537.36" etag="5L_EdVHg3vmR5ZaOeNWm" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T05:33:49.643Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.0.2246 Yowser/2.5 Safari/537.36" etag="_slScUoZQ4tNpdPMa-SU" version="21.1.4" type="github">
   <diagram name="Page-1" id="42789a77-a242-8287-6e28-9cd8cfd52e62">
-    <mxGraphModel dx="1386" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2486" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lBq8-uqIJ8_SC7uOZpQ2-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;OpenVPN Client&lt;br&gt;(Windows)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="600" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBq8-uqIJ8_SC7uOZpQ2-4" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;OpenVPN Server&lt;br&gt;port 1194&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="190" width="180" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="lBq8-uqIJ8_SC7uOZpQ2-8" value="ip&amp;nbsp;62.109.2.192" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="455" y="135" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lBq8-uqIJ8_SC7uOZpQ2-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lBq8-uqIJ8_SC7uOZpQ2-4" target="lBq8-uqIJ8_SC7uOZpQ2-3" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="620" y="550" as="sourcePoint" />
-            <mxPoint x="670" y="500" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="470" y="280" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lBq8-uqIJ8_SC7uOZpQ2-10" value="OpenVPN туннель&lt;br&gt;port 1194" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="630" y="460" width="130" height="40" as="geometry" />
+          <mxGeometry x="620" y="530" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lBq8-uqIJ8_SC7uOZpQ2-12" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="80" width="240" height="140" as="geometry" />
@@ -40,77 +31,32 @@
         <mxCell id="lBq8-uqIJ8_SC7uOZpQ2-15" value="WAN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="880" y="290" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vsQ8uhbUfWxWedc5qAsu-1" value="Prometheus&lt;br&gt;Server&lt;br&gt;port 9090" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="200" y="600" width="110" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="vsQ8uhbUfWxWedc5qAsu-2" value="Node Exporter&lt;br&gt;port 9100" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="60" y="500" width="70" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="vsQ8uhbUfWxWedc5qAsu-3" value="OpenVPN Exporter&lt;br&gt;port 9176" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="270" y="385" width="70" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="vsQ8uhbUfWxWedc5qAsu-4" value="AlertManager&lt;br&gt;port 9093" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="110" y="730" width="110" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="vsQ8uhbUfWxWedc5qAsu-5" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="535" y="600" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vsQ8uhbUfWxWedc5qAsu-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lBq8-uqIJ8_SC7uOZpQ2-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="140" y="330" as="sourcePoint" />
-            <mxPoint x="310" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vsQ8uhbUfWxWedc5qAsu-9" value="Ubuntu Server&lt;br&gt;(local)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="350" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vsQ8uhbUfWxWedc5qAsu-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="vsQ8uhbUfWxWedc5qAsu-9" target="vsQ8uhbUfWxWedc5qAsu-2" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="490" as="sourcePoint" />
-            <mxPoint x="570" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vsQ8uhbUfWxWedc5qAsu-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.855;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" parent="1" source="vsQ8uhbUfWxWedc5qAsu-2" target="vsQ8uhbUfWxWedc5qAsu-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="570" as="sourcePoint" />
-            <mxPoint x="570" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vsQ8uhbUfWxWedc5qAsu-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.618;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vsQ8uhbUfWxWedc5qAsu-3" target="vsQ8uhbUfWxWedc5qAsu-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="570" as="sourcePoint" />
-            <mxPoint x="570" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vsQ8uhbUfWxWedc5qAsu-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.145;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;" parent="1" source="vsQ8uhbUfWxWedc5qAsu-1" target="vsQ8uhbUfWxWedc5qAsu-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="570" as="sourcePoint" />
-            <mxPoint x="570" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vsQ8uhbUfWxWedc5qAsu-14" value="email receiver&lt;br&gt;smtp.mail.ru:587" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="790" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="vsQ8uhbUfWxWedc5qAsu-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-15;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vsQ8uhbUfWxWedc5qAsu-4" target="vsQ8uhbUfWxWedc5qAsu-14" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="570" as="sourcePoint" />
-            <mxPoint x="570" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vsQ8uhbUfWxWedc5qAsu-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=45;exitPerimeter=0;" parent="1" source="vsQ8uhbUfWxWedc5qAsu-1" target="vsQ8uhbUfWxWedc5qAsu-5" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="570" as="sourcePoint" />
-            <mxPoint x="570" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="vsQ8uhbUfWxWedc5qAsu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lBq8-uqIJ8_SC7uOZpQ2-4" target="lBq8-uqIJ8_SC7uOZpQ2-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vsQ8uhbUfWxWedc5qAsu-19" value="http://62.109.2.192:9090" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="340" y="600" width="150" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="vsQ8uhbUfWxWedc5qAsu-20" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Схема инфраструктуры&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="380" y="15" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UUX9XVSMIbeHFRxq0pAp-1" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="380" width="610" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="UUX9XVSMIbeHFRxq0pAp-2" value="Ubuntu Server&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ip 62.109.2.192" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="405" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lBq8-uqIJ8_SC7uOZpQ2-4" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;OpenVPN Server&lt;br&gt;port 1194&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="440" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lBq8-uqIJ8_SC7uOZpQ2-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.921;exitY=0.545;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="UUX9XVSMIbeHFRxq0pAp-1" target="lBq8-uqIJ8_SC7uOZpQ2-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="550" as="sourcePoint" />
+            <mxPoint x="670" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UUX9XVSMIbeHFRxq0pAp-6" value="Удостоверяющий центр" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UUX9XVSMIbeHFRxq0pAp-7" value="Мониторинг&amp;nbsp;&lt;br&gt;Prometheus" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="530" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
